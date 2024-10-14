@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.container {
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixel {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixel:hover {
+  background-color: grey;
+  transition: 0.3s;
+}
