@@ -6,7 +6,6 @@ const gridPopUp = () => {
 
   if (isNaN(gridSize) || newSize <= 0 || newSize > 64) {
     alert("Please enter a number between 1-64");
-    console.log("Please enter a number between 1-64");
     return;
   } else {
     gridSize = newSize;
@@ -51,7 +50,7 @@ const addRow = () => {
 
     columnDiv.appendChild(newDiv);
   }
-  const container = document.getElementById("container").appendChild(columnDiv);
+  document.getElementById("container").appendChild(columnDiv);
 };
 
 const addColumn = () => {
